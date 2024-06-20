@@ -1,0 +1,59 @@
+.services-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+.services-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.services-description {
+  text-align: center;
+  max-width: 600px;
+  margin-bottom: 32px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 32px;
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.service-card img {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 16px;
+}
+
+.service-card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.service-card p {
+  font-size: 14px;
+}
+
+.learn-more-btn {
+  margin-top: 32px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 45px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #458FF6;
+  border: 2px solid #458FF6;
+  background-color: #fbfbfb;
+}
